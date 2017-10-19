@@ -1,0 +1,138 @@
+body, body * {
+	font-family: 'Gloria Hallelujah', cursive;
+	box-sizing: border-box;
+	max-width: 100%;
+	overflow-x:hidden;
+	overflow-y: hidden;
+}
+
+body.clearfix {
+	background-color: #E0FFFF; /*light cyan*/
+	display: table;
+	clear: both;
+}
+
+.title {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+#circle {
+	margin: 70px;
+    width: 300px;
+    height: 300px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+}
+
+.shadow {
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+    -webkit-border-radius: 5em;
+    -moz-border-radius: 5em;
+    border-radius: 5em; /*makes it seem square-ish, not full circle. To get a circle, input "99em"*/
+}
+
+.shadow:hover {
+	box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+	-webkit-border-radius: 5em;
+    -moz-border-radius: 5em;
+    border-radius: 5em;
+}
+
+
+
+/*DECORATIVE LOGO on bottom of home page*/
+
+div.bar1 {
+	position: absolute;
+	float: left;
+	bottom: 10px;
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	margin-left: 5px;
+	background-color: #ddeaff;
+	transition: height .3s;
+	text-align: center;
+	font-size: 80%;
+}
+
+div.bar1:hover {
+	height: 20px;
+}
+
+div.bar2 {
+	position: absolute;
+	float: left;
+	bottom: 10px;
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	margin-left: 20px;
+	background-color: #ccdfff;
+	transition: height .3s;
+	text-align: center;
+	font-size: 60%;
+}
+
+div.bar2:hover {
+	height: 20px;
+}
+
+div.bar3 {
+	position: absolute;
+	float: left;
+	bottom: 10px;
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	margin-left: 35px;
+	background-color: #b7d2ff;
+	transition: height .3s;
+	text-align: center;
+	font-size: 80%;
+}
+
+div.bar3:hover {
+	height: 20px;
+}
+
+div.bar4 {
+	position: absolute;
+	float: left;
+	bottom: 10px;
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	margin-left: 50px;
+	background-color: #a0c4ff;
+	transition: height .3s;
+	text-align: center;
+	font-size: 80%;
+}
+
+div.bar4:hover {
+	height: 20px;
+}
+
+div.bar5 {
+	position: absolute;
+	float: left;
+	bottom: 10px;
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	margin-left: 65px;
+	background-color: #82b1ff;
+	transition: height .3s;
+	text-align: center;
+	font-size: 50%;
+}
+
+div.bar5:hover {
+	height: 20px;
+}
+
+/*end of decoration*/
